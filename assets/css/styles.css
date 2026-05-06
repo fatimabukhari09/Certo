@@ -119,9 +119,9 @@ border-radius: 50px !important;
     padding: 0;          
 }
 .fixed-logo {
-    height: 30px;        
+    height: 300px;        
     width: auto;         
-    display: block;
+    display: square;
     transition: transform 0.3s ease; 
 }
 .fixed-logo:hover {
