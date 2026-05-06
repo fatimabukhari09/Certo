@@ -614,7 +614,7 @@ margin-bottom: 30px;
 
 .certo-plus {
     position: absolute;
-    width: 50%;
+   width: 120px !important;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
