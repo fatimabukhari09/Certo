@@ -591,12 +591,10 @@ margin-bottom: 30px;
     gap: 10px;
 }
 
-.future50-box {
-    width: 140px;        /* size control */
-    height: auto;
-    margin-top: 15px;    /* space from yellow box */
-    margin-left: 0;      /* reset गलत spacing */
-    padding-left: 0;
+.future50-box,
+.certo-plus {
+    width: 120px;   /* 👈 same size for both */
+    height: auto;   /* keeps aspect ratio */
 }
 
 .yellow-rect {
@@ -614,13 +612,7 @@ margin-bottom: 30px;
     width: 65%;
 }
 
-.certo-plus {
-    position: absolute;
-   width: 200px !important;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 /* Text Styling */
 .footer-bottom {
     margin-top: 50px;
