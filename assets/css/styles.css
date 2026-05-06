@@ -247,12 +247,15 @@ width: 200%; /* Makes cards feel scrollable on mobile */
                             
                                
                          /* Section 3*/ 
-.mission-section { 
-padding: 100px 0; 
-background-color: #ffffff; 
-overflow: hidden; 
-width: 1500px; ; 
-} 
+.mission-section {
+    padding: 100px 0;
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%;   /* ✅ FIXED */
+}
+.mission-text-img {
+    margin-left: -120px;  /* adjust: -20px, -60px as needed */
+}
 .mission-section .row {
     display: flex;
     align-items: center;
