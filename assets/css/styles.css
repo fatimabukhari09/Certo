@@ -207,7 +207,12 @@ height: auto;
 object-fit: contain; 
 display: block; 
 } 
-  
+        /* Mobile Responsive */ 
+@media (max-width: 768px) { 
+.full-cards-img { 
+width: 200%; 
+} 
+} 
       /* Section 3*/ 
 .mission-section {
     padding: 100px 0;
