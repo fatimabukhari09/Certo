@@ -514,7 +514,7 @@ margin-bottom: 30px;
     height: 200px; 
     width: 120%; 
     margin-left: -50%;
-    filter: brightness(0) saturate(100%) invert(89%) sepia(20%) saturate(1200%) hue-rotate(350deg) brightness(105%) contrast(100%);
+
 }
 .future50-box {
     height: 70px; /* White box size */
