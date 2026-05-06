@@ -106,6 +106,7 @@ border-radius: 50px !important;
     height: 35px;            
     width: auto;             
     cursor: pointer;         
+    transition: transform 0.2s ease, opacity 0.2s ease; 
     display: block;
 }
 .fixed-btn-img:hover {
@@ -121,7 +122,7 @@ border-radius: 50px !important;
     height: 30px;        
     width: auto;         
     display: block;
-    
+    transition: transform 0.3s ease; 
 }
 .fixed-logo:hover {
     transform: scale(1.02); 
