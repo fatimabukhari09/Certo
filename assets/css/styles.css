@@ -489,21 +489,17 @@ margin-bottom: 30px;
     width: auto;
     filter: brightness(0) invert(1);
 }
-
-/* Row alignment */
+    /* Row alignment */
 .footer-row-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center; 
     margin-bottom: 40px;
 }
-
 .logo-col {
     display: flex;
     align-items: center;
 }
-
-/* Google + Future 50 Stack */
 .stack {
     flex-direction: column;
     align-items: flex-start !important;
