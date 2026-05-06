@@ -481,7 +481,7 @@ margin-bottom: 30px;
     max-width: 220px;
     width: 100%;
     height: auto;
-    filter: brightness(0) invert(1);
+    filter: brightness(10) invert(2);
 }
       /* Footer version */
 .future50-box {
