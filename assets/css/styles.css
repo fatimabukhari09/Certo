@@ -535,8 +535,7 @@ margin-bottom: 30px;
     }
 }
 
-/* --- MAIN FOOTER STYLING --- */
-.custom-footer {
+/* --- MAIN FOOTER STYLING --- */.custom-footer {
     background-color: #02033b;
     padding: 60px 0;
     color: white;
@@ -547,6 +546,29 @@ margin-bottom: 30px;
     max-width: 900px; /* Is se spacing tight ho jayegi */
     margin: 0 auto;
     padding: 0 20px;
+}
+.newsletter-img22-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-img22-box img {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+
+    /* white logo effect */
+    filter: brightness(0) invert(1);
+}
+
+/* Footer version */
+.future50-box {
+    height: 50px;
+    width: auto;
+
+    /* white color for dark bg */
+    filter: brightness(0) invert(1);
 }
 
 /* Row alignment */
@@ -578,47 +600,62 @@ margin-bottom: 30px;
 .img-intel { 
     height: 200px; /* 200px bahut zyada bada tha */
     width: 120%; 
-    margin-left: 40%;
+    margin-left: -50%;
     
     /* Yeh filter white logo ko yellow mein convert kar dega */
     filter: brightness(0) saturate(100%) invert(89%) sepia(20%) saturate(1200%) hue-rotate(350deg) brightness(105%) contrast(100%);
 }
 
-.box-stack {
-    display: flex;
-    flex-direction: column;
-    align-items: center;   /* 👈 centers both images */
-    gap: 10px;
+.future50-box {
+    height: 70px; /* White box size */
+    width: 70%;
+  margin-left: 40%;
+    margin-bottom: -50%;
+    
 }
 
-.future50-box,
-.certo-plus {
-    width: 120px;   /* 👈 same size for both */
-    height: auto;   /* keeps aspect ratio */
-}
-
+/* Yellow Box Styling */
 .yellow-rect {
     background-color: #ecb322;
-    width: 220px;
-    height: 220px;
+    width: 300px;
+    height: 150px;
+
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+
+    border-radius: 16px;
+    margin-left: 10%;
 }
 
 .certo-main {
-    width: 65%;
+    width: 30%;
+    height: auto;
+    display: block;
+
+    position: relative;
+    z-index: 1;
 }
 
+
+
+/* Image 25: Plus Logo (Jo Certo ke upar aayega) */
 .certo-plus {
     position: absolute;
-   width: 200px !important;
+
     top: 50%;
     left: 50%;
+
     transform: translate(-50%, -50%);
+
+    width: 80%;
+    z-index: 2;
+
+    pointer-events: none;
+    margin-left: 2%;
 }
+
 /* Text Styling */
 .footer-bottom {
     margin-top: 50px;
@@ -665,5 +702,3 @@ margin-bottom: 30px;
     color: white;
     text-decoration: underline;
 }
-
-.copyright-row a { color: white; text-decoration: underline; }
