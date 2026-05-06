@@ -258,7 +258,8 @@ border-radius: 5px;
 transform: translate(-20px, -20px); 
 } 
 /* Responsive adjustments */ 
-                    
+@media (max-width: 991px) { 
+.mission-section {                  
            /*Sectio 4*/ 
 .spyware-full-blue {
      background-color: #d0cfcf;
