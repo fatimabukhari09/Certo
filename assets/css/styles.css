@@ -539,7 +539,7 @@ margin-bottom: 30px;
 .certo-main {
     width: 30%;
     height: auto;
-    display: block;
+  
     position: relative;
     z-index: 1;
 }
