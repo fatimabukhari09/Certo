@@ -481,7 +481,7 @@ margin-bottom: 30px;
     max-width: 220px;
     width: 100%;
     height: auto;
-    filter: brightness(10) invert(2);
+    filter: brightness(0) invert(1);
 }
       /* Footer version */
 .future50-box {
@@ -517,7 +517,7 @@ margin-bottom: 30px;
     filter: brightness(0) saturate(100%) invert(89%) sepia(20%) saturate(1200%) hue-rotate(350deg) brightness(105%) contrast(100%);
 }
 .future50-box {
-    height: 70px;
+    height: 70px; /* White box size */
     width: 70%;
   margin-left: 40%;
     margin-bottom: -50%;
@@ -579,11 +579,11 @@ margin-bottom: 30px;
     text-align: left;
 }
 .copyright-row {
-    margin-left: -30%;
+    margin-left: -70%;
     display: flex;
     flex-direction: column; 
     gap: 8px;              
-    font-size: 11px;
+    font-size: 71px;
     color: rgba(255, 255, 255, 0.6);
     text-align: left;       
 }
