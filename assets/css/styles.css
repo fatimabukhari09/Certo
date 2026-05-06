@@ -436,7 +436,22 @@ margin-bottom: 30px;
     width: auto;
     object-fit: contain;
    
-; 
+}
+.img-19-bottom {
+    height: 50px; 
+    width: auto;
+    display: inline-block;
+}
+       /* MOBILE RESPONSIVE  */
+@media (max-width: 768px) {
+    .footer-stacked-center {
+        padding: 60px 20px;
+    }
+    .img-20-top {
+        max-width: 300px;
+    }
+    .badge-mid {
+        height: 40px; 
     }
     .img-19-bottom {
         height: 50px;
@@ -456,6 +471,11 @@ margin-bottom: 30px;
     max-width: 900px; 
     margin: 0 auto;
     padding: 0 20px;
+}
+.newsletter-img22-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 .newsletter-img22-box img {
     max-width: 220px;
