@@ -388,7 +388,7 @@ margin-bottom: 30px;
     height: 55px;
     padding: 0 30px;
     border: 2px solid white;
-    border-radius: 50px; /* Rounded pill shape */
+    border-radius: 50px; 
     color: white;
     text-decoration: none;
     display: flex;
@@ -505,22 +505,17 @@ margin-bottom: 30px;
     align-items: flex-start !important;
     gap: 15px;
 }
-
 .white-logo {
     filter: brightness(0) invert(1);
     height: 30px;
 }
-
-.img-google { height: 120px;width: 100%; margin-left: -30%; } /* Google thoda bada hota hai */
+.img-google { height: 120px;width: 100%; margin-left: -30%; } 
 .img-intel { 
-    height: 200px; /* 200px bahut zyada bada tha */
+    height: 200px; 
     width: 120%; 
     margin-left: -50%;
-    
-    /* Yeh filter white logo ko yellow mein convert kar dega */
     filter: brightness(0) saturate(100%) invert(89%) sepia(20%) saturate(1200%) hue-rotate(350deg) brightness(105%) contrast(100%);
 }
-
 .future50-box {
     height: 70px; /* White box size */
     width: 70%;
@@ -528,8 +523,6 @@ margin-bottom: 30px;
     margin-bottom: -50%;
     
 }
-
-/* Yellow Box Styling */
 .yellow-rect {
     background-color: #ecb322;
     width: 300px;
@@ -543,76 +536,57 @@ margin-bottom: 30px;
     border-radius: 16px;
     margin-left: 10%;
 }
-
 .certo-main {
     width: 30%;
     height: auto;
     display: block;
-
     position: relative;
     z-index: 1;
 }
-
-
-
-/* Image 25: Plus Logo (Jo Certo ke upar aayega) */
 .certo-plus {
     position: absolute;
-
     top: 50%;
     left: 50%;
-
     transform: translate(-50%, -50%);
-
     width: 80%;
     z-index: 2;
-
     pointer-events: none;
     margin-left: 2%;
 }
-
-/* Text Styling */
 .footer-bottom {
     margin-top: 50px;
-    text-align: left; /* Text ko left-aligned rakhne ke liye */
+    text-align: left; 
 }
-
 .legal-text {
     font-size: 11px;
     line-height: 1.6;
     color: rgba(255, 255, 255, 0.4);
-    max-width: 850px; /* Is se text automatic lines mein break ho jayega */
+    max-width: 850px; 
     margin-bottom: 20px;
 }
-
 .divider {
     border: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     margin: 20px 0;
-
-     
 }
 .legal-text{
      margin-left: -9%;
     display: flex;
-    flex-direction: column; /* Is se items ek ke neeche ek (next line) aa jayenge */
-    gap: 8px;               /* Dono lines ke darmiyan thoda gap dene ke liye */
+    flex-direction: column; 
+    gap: 8px;               
     font-size: 11px;
     color: rgba(255, 255, 255, 0.6);
     text-align: left;
-
-    
 }
 .copyright-row {
     margin-left: -30%;
     display: flex;
-    flex-direction: column; /* Is se items ek ke neeche ek (next line) aa jayenge */
-    gap: 8px;               /* Dono lines ke darmiyan thoda gap dene ke liye */
+    flex-direction: column; 
+    gap: 8px;              
     font-size: 11px;
     color: rgba(255, 255, 255, 0.6);
-    text-align: left;       /* Text ko left side par align rakhne ke liye */
+    text-align: left;       
 }
-
 .copyright-row a {
     color: white;
     text-decoration: underline;
