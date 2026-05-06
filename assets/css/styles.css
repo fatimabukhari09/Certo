@@ -265,9 +265,17 @@ text-align: center;
 } 
 .mission-visual { 
 margin-top: 50px; 
-}               
+}      
+.mission-img-text { 
+margin: 0 auto; 
+} 
+.mission-person-img { 
+transform: translate(0, 0); 
+} 
+.yellow-boundary { 
+display: none;          
             } 
-}
+
 .spyware-full-blue {
      background-color: #d0cfcf;
     padding: 100px 0;
